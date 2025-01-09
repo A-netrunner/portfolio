@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://A-netrunner.github.io/portfolio",
