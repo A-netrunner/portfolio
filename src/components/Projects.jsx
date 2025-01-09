@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { GithubIcon, ExternalLinkIcon } from 'lucide-react';
-import newpng from '../assets/homepage.png';
 const sections = ['home', 'skills', 'projects', 'contact'];
 
 const projects = [
@@ -16,7 +15,7 @@ const projects = [
         title: "Booking vehicle",
         description: "Real-time social media analytics dashboard",
         tech: ["PHP", "MySql", "Tailwind CSS"],
-        image: "src/assets/homepage.png",
+        image: "/api/placeholder/600/400",
         demo: "https://demo.example.com",
         github: "https://github.com/example/project"
     },
