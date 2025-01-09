@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GithubIcon, ExternalLinkIcon } from 'lucide-react';
-import newsvg from '../assets/react-brands-solid.svg';
+import newpng from '../assets/homepage.png';
 const sections = ['home', 'skills', 'projects', 'contact'];
 
 const projects = [
