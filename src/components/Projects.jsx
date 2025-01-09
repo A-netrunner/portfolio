@@ -15,7 +15,7 @@ const projects = [
         title: "Booking vehicle",
         description: "Real-time social media analytics dashboard",
         tech: ["PHP", "MySql", "Tailwind CSS"],
-        image: "/api/placeholder/600/400",
+        image: "/homepage.png",
         demo: "https://demo.example.com",
         github: "https://github.com/example/project"
     },

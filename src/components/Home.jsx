@@ -12,7 +12,7 @@ const Home = () => {
         <div className="text-center">
           <div className="mb-8 inline-block">
             <img
-              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.O4aFOvu3koO1SqoSxTnbawHaEK%26pid%3DApi&f=1&ipt=40a5e0f0e7c9cb48303f5f5568cbc16eee44dfb254fc2bd0dc157ba3d20a7a8f&ipo=images"
+              src="https://avatars.githubusercontent.com/u/122930406?v=4&size=164"
               alt="Profile"
               className="rounded-full border-4 border-white/10 shadow-xl"
             />
