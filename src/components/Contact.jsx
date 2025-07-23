@@ -52,19 +52,19 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-gray-300">Email</h4>
-                  <p className="text-gray-400">Jay@gamil.com</p>
+                  <p className="text-gray-400">vijaymail131tech@gamil.com</p>
                 </div>
               </div>
 
-              <div className="flex items-center space-x-4">
+              {/* <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center">
                   <PhoneIcon className="w-6 h-6 text-purple-400" />
                 </div>
                 <div>
                   <h4 className="text-gray-300">Phone</h4>
-                  <p className="text-gray-400">+91 1234567890</p>
+                  <p className="text-gray-400"></p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 rounded-full bg-white/5 flex items-center justify-center">

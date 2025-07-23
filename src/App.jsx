@@ -4,9 +4,11 @@ import Project from "./components/Projects";
 import Skill from "./components/Skill";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import WebDevMarquee from "./components/WebTechMarquee";
 const App = () => {
   return (
     <>
+    
       <div className="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center overflow-x-hidden relative">
         <Navbar />
         <div className="w-full">
@@ -15,6 +17,10 @@ const App = () => {
             className="mb-16 mx-auto flex flex-col items-center justify-center"
           >
             <Home />
+          </section>
+
+          <section id="marquee">
+            <WebDevMarquee />
           </section>
 
           <section id="skills">
