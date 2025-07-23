@@ -1,12 +1,18 @@
-import { icons } from "lucide-react";
 import React from "react";
+import {
+  FaJsSquare,
+  FaReact,
+  FaNodeJs,
+  FaCss3Alt,
+  FaHtml5,
+} from "react-icons/fa";
 
 const technicalSkills = [
-  { name: "JavaScript", level: "Advanced", Icon: icons.Javascript },
-  { name: "React", level: "Advanced", Icon: icons.React },
-  { name: "Node.js", level: "Intermediate", Icon: icons.Nodejs },
-  { name: "CSS", level: "Advanced", Icon: icons.Css },
-  { name: "HTML", level: "Advanced", Icon: icons.Html5 },
+  { name: "JavaScript", level: "Advanced", Icon: FaJsSquare },
+  { name: "React", level: "Advanced", Icon: FaReact },
+  { name: "Node.js", level: "Intermediate", Icon: FaNodeJs },
+  { name: "CSS", level: "Advanced", Icon: FaCss3Alt },
+  { name: "HTML", level: "Advanced", Icon: FaHtml5 },
 ];
 
 const professionalSkills = [
@@ -27,7 +33,7 @@ const SkillCard = ({ skill }) => (
       <div className="h-1.5 flex-grow rounded-full bg-gray-700">
         <div
           className={`h-full rounded-full bg-gradient-to-r from-purple-500 to-pink-500 
-                    ${skill.level === "Advanced" ? "w-full" : "w-2/3"}`}
+                      ${skill.level === "Advanced" ? "w-full" : "w-2/3"}`}
         />
       </div>
       <span className="text-sm text-gray-400">{skill.level}</span>
@@ -54,8 +60,8 @@ const Skill = () => {
             Technical Skills
           </h3>
           <div className="grid gap-4">
-            {technicalSkills.map((skill, index, icons) => (
-              <SkillCard key={index} skill={skill} icons={icons} />
+            {technicalSkills.map((skill, index) => (
+              <SkillCard key={index} skill={skill} />
             ))}
           </div>
         </div>

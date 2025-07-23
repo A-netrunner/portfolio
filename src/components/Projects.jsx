@@ -3,12 +3,13 @@ import { GithubIcon, ExternalLinkIcon } from "lucide-react";
 const sections = ["home", "skills", "projects", "contact"];
 
 
+
 const images = {
   "Restaurant near me":
     "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.p4S1QVLTTCkfLYHEvfCc5wHaE8%26pid%3DApi&f=1&ipt=e0c19d8aad4111e11f36361aa057a460bc1d87e4edd24a9d58648003a807889a&ipo=images",
   "Booking vehicle": "/homepage.png",
-  Bookvers: "src/assets/Bookverse.png",
-  "Portfolio Website": "src/assets/PortfolioHome.png",
+  "Bookvers": "/Bookverse.png",
+  "Portfolio Website": "/PortfolioHome.png",
 };
 
 
